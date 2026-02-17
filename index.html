@@ -4,355 +4,341 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dietger Pieters — Senior Assessment</title>
-    <meta
-            name="description"
-            content="Senior assessment portfolio: introduction, achievement case study, and senior justification."
-    />
+    <meta name="description" content="Senior assessment portfolio: interactive case study, leadership, and senior justification." />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%92%BC%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+            rel="stylesheet"
+    />
 </head>
-
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header">
-    <div class="container header-inner">
+<header class="topbar topbar--simple" data-reveal>
+    <div class="wrap topbar__inner">
         <div class="brand">
-            <div class="brand-mark" aria-hidden="true">DP</div>
-            <div class="brand-text">
-                <div class="brand-name">Dietger Pieters</div>
-                <div class="brand-sub">Senior Assessment Pack</div>
+            <div class="brand__mark" aria-hidden="true">DP</div>
+            <div class="brand__text">
+                <div class="brand__name">Dietger Pieters</div>
+                <div class="brand__sub">Senior Assessment</div>
             </div>
         </div>
-
-        <nav class="nav" aria-label="Primary">
-            <a href="#overview">Overview</a>
-            <a href="#intro">Introduction</a>
-            <a href="#achievement">Achievement</a>
-            <a href="#senior">Why Senior</a>
-            <a class="btn btn--ghost" href="#contact">Contact</a>
-        </nav>
     </div>
 </header>
 
 <main id="main">
     <!-- HERO -->
     <section class="hero">
-        <div class="container hero-inner">
-            <div class="hero-copy">
-                <p class="kicker">Onsite Assessment • Intro (10 min) • Presentation (30 min) • Senior Justification</p>
-                <h1>Tech Lead building scalable Digital Experience Platforms.</h1>
-                <p class="lead">
-                    I modernize enterprise CMS platforms (AEM 6.5) into reliable, maintainable headless experiences with React—
-                    while leading distributed teams and keeping delivery predictable.
+        <div class="wrap hero__inner">
+            <div class="hero__card glass" data-reveal>
+                <h1 class="hero__title">Leading with Clarity and Conviction</h1>
+                <p class="hero__lead">
+                    Tech Lead in Digital Experience Platforms — aligning architecture, stakeholders, and teams to deliver with confidence.
                 </p>
 
-                <div class="hero-cta">
-                    <a class="btn" href="#achievement">View Achievement</a>
+                <div class="hero__cta">
+                    <a class="btn" href="#case">View Case Study</a>
                     <a class="btn btn--ghost" href="#senior">Why Senior</a>
-                    <a class="btn btn--ghost" href="#" aria-disabled="true" title="Replace with your CV link later">Download CV</a>
                 </div>
 
-                <div class="chips" aria-label="Key skills">
+                <div class="chips" aria-label="Focus areas">
                     <span class="chip">AEM 6.5</span>
-                    <span class="chip">Headless / React</span>
-                    <span class="chip">TypeScript</span>
-                    <span class="chip">Distributed teams</span>
-                    <span class="chip">Quality &amp; Observability</span>
+                    <span class="chip">Headless</span>
+                    <span class="chip">React</span>
+                    <span class="chip">Design Tokens</span>
+                    <span class="chip">Stakeholder Alignment</span>
                 </div>
             </div>
 
-            <aside class="hero-card" aria-label="Quick facts">
-                <div class="card">
-                    <div class="card-title">Quick Facts</div>
-                    <ul class="facts">
-                        <li><span>Role</span><strong>Tech Lead (Toyota Buy &amp; Discovery)</strong></li>
-                        <li><span>Company</span><strong>Inetum Belgium (DXP)</strong></li>
-                        <li><span>Stack</span><strong>AEM • React • TS • CI/CD</strong></li>
-                        <li><span>Focus</span><strong>Modernization &amp; delivery excellence</strong></li>
-                        <li><span>Location</span><strong>Belgium</strong></li>
-                    </ul>
-                    <div class="note">
-                        Tip: replace the disabled CV button with a PDF link once you have it (e.g. <code>/assets/CV.pdf</code>).
-                    </div>
+            <aside class="hero__visual glass" data-reveal data-reveal-delay="120" aria-label="Mini components visual">
+                <div class="visual__title">Mini Components<br />Dependency Map</div>
+
+                <div class="map" aria-hidden="true">
+                    <div class="node n1"></div>
+                    <div class="node n2"></div>
+                    <div class="node n3"></div>
+                    <div class="node n4"></div>
+                    <div class="node n5"></div>
+
+                    <div class="edge e1"></div>
+                    <div class="edge e2"></div>
+                    <div class="edge e3"></div>
+                    <div class="edge e4"></div>
+                    <div class="edge e5"></div>
+                </div>
+
+                <div class="visual__legend">
+                    <span class="dot d1"></span> UI Tokens
+                    <span class="dot d2"></span> Mini Components
+                    <span class="dot d3"></span> Feature Team
                 </div>
             </aside>
         </div>
+
+        <div class="hero__bg" aria-hidden="true"></div>
     </section>
 
-    <!-- OVERVIEW -->
-    <section id="overview" class="section">
-        <div class="container">
-            <div class="section-head">
-                <h2>Assessment Overview</h2>
-                <p class="muted">This page mirrors the structure of the onsite assessment.</p>
-            </div>
-
-            <div class="grid-3">
-                <div class="card">
-                    <div class="card-title">Introduction (10 min)</div>
-                    <p class="muted">Professional snapshot + personal context, concise and relevant.</p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Achievement (30 min)</div>
-                    <p class="muted">A project/business case I’m proud of, focusing on outcomes and decisions.</p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Why Senior</div>
-                    <p class="muted">Evidence-based justification: scope, autonomy, impact, leadership, quality.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- INTRO -->
-    <section id="intro" class="section section--alt">
-        <div class="container">
-            <div class="section-head">
-                <h2>Introduction</h2>
-                <p class="muted">A brief, assessment-friendly summary—clear scope and identity.</p>
-            </div>
-
-            <div class="grid-2">
-                <div class="card">
-                    <div class="card-title">Professional</div>
-                    <ul class="list">
-                        <li>Tech Lead in Toyota’s Buy &amp; Discovery team (Inetum DXP unit).</li>
-                        <li>Maintaining Toyota’s main website on AEM 6.5 with a custom React layer.</li>
-                        <li>Driving technical excellence: architecture decisions, quality gates, delivery predictability.</li>
-                        <li>Leading a distributed team setup (nearshore/offshore) and mentoring engineers.</li>
-                    </ul>
-                </div>
-
-                <div class="card">
-                    <div class="card-title">Personal</div>
-                    <ul class="list">
-                        <li>Based in Belgium.</li>
-                        <li>Enjoy cycling and continuous learning (including Spanish).</li>
-                        <li>Big on team culture: knowledge sharing, clear standards, and “get it done” mindset.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ACHIEVEMENT -->
-    <section id="achievement" class="section">
-        <div class="container">
-            <div class="section-head">
-                <h2>Achievement</h2>
-                <p class="muted">One project I’m proud of—structured as a mini case study.</p>
-            </div>
-
-            <div class="card case">
-                <div class="case-top">
-                    <div>
-                        <div class="case-title">Toyota Europe — Modernizing AEM Components into a Headless React Architecture</div>
-                        <p class="muted">
-                            Modernization while keeping business delivery moving: reduce complexity, raise quality, and make the
-                            platform easier to scale.
-                        </p>
-                    </div>
-                    <div class="case-tags" aria-label="Case study tags">
-                        <span class="chip">AEM 6.5</span>
-                        <span class="chip">React</span>
-                        <span class="chip">Headless</span>
-                        <span class="chip">Governance</span>
-                    </div>
-                </div>
-
-                <div class="grid-2 gap-lg">
-                    <div>
-                        <h3>Context</h3>
-                        <p>
-                            The platform needed a pragmatic path from legacy AEM component implementations to a modern React-based
-                            delivery model—without disrupting release cadence or stakeholder confidence.
-                        </p>
-
-                        <h3>Goal</h3>
-                        <ul class="list">
-                            <li>Ship user-facing improvements while reducing long-term maintenance cost.</li>
-                            <li>Improve predictability and reduce regressions through better structure and quality controls.</li>
-                            <li>Create a repeatable migration pattern other engineers can follow.</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3>My Role</h3>
-                        <ul class="list">
-                            <li>Technical ownership: architecture decisions and standards.</li>
-                            <li>Delivery leadership: planning, reviews, unblocking, aligning distributed teams.</li>
-                            <li>Quality bar: accessibility, performance, and observability mindset.</li>
-                        </ul>
-
-                        <h3>Key Contributions</h3>
-                        <ul class="list">
-                            <li>Defined migration approach and component patterns (what, why, and how).</li>
-                            <li>Helped map dependencies and risk areas to make migration safer and clearer.</li>
-                            <li>Improved developer experience through clearer structure and practical tooling.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="divider"></div>
-
-                <div class="grid-3">
-                    <div class="card subtle">
-                        <div class="card-title">Outcome</div>
-                        <p class="muted">
-                            Replace this with concrete outcomes (e.g. cycle time, regressions, performance, bundle size).
-                        </p>
-                        <ul class="list compact">
-                            <li><strong>Quality:</strong> fewer regressions through better patterns/reviews.</li>
-                            <li><strong>Speed:</strong> more repeatable delivery for new components.</li>
-                            <li><strong>Maintainability:</strong> clearer ownership &amp; structure.</li>
-                        </ul>
-                    </div>
-                    <div class="card subtle">
-                        <div class="card-title">What I’d Present (30 min)</div>
-                        <ul class="list compact">
-                            <li>Architecture: old vs new (diagram)</li>
-                            <li>Decision points &amp; trade-offs</li>
-                            <li>Quality gates (a11y/perf/testing)</li>
-                            <li>Delivery model across teams</li>
-                        </ul>
-                    </div>
-                    <div class="card subtle">
-                        <div class="card-title">Artifacts</div>
-                        <ul class="list compact">
-                            <li><a href="#" aria-disabled="true">Architecture diagram (add image)</a></li>
-                            <li><a href="#" aria-disabled="true">Before/after screenshots</a></li>
-                            <li><a href="#" aria-disabled="true">Supporting documentation</a></li>
-                        </ul>
-                        <p class="muted small">Tip: put images in <code>/assets</code> and link them here.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHY SENIOR -->
-    <section id="senior" class="section section--alt">
-        <div class="container">
-            <div class="section-head">
-                <h2>Why I should be Senior</h2>
-                <p class="muted">Evidence-based: scope, autonomy, impact, leadership, quality, stakeholders.</p>
-            </div>
-
-            <div class="grid-3">
-                <div class="card">
-                    <div class="card-title">Scope</div>
-                    <p class="muted">
-                        I take ownership of cross-cutting topics (AEM + React + integration), not just isolated tickets.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Autonomy</div>
-                    <p class="muted">
-                        I identify problems early, propose solutions, align people, and execute—without needing constant direction.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Impact</div>
-                    <p class="muted">
-                        I prioritize outcomes: risk reduction, maintainability, delivery speed, and platform reliability.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Leadership</div>
-                    <p class="muted">
-                        I raise the bar through reviews, mentoring, standards, and unblocking distributed teams.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Quality Bar</div>
-                    <p class="muted">
-                        Accessibility, performance, and observability are defaults—not afterthoughts.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="card-title">Stakeholders</div>
-                    <p class="muted">
-                        I translate trade-offs into business language and keep delivery predictable and transparent.
-                    </p>
-                </div>
-            </div>
-
-            <div class="callout">
+    <!-- PINNED SCROLL STORY -->
+    <section id="case" class="case">
+        <div class="wrap">
+            <div class="section-head" data-reveal>
+                <h2>Impact Case Study</h2>
                 <p>
-                    <strong>What changes if I’m Senior?</strong>
-                    You get the same delivery, with a formal mandate to drive platform-wide initiatives, governance, and
-                    mentoring at scale.
+                    Unblocking Toyota’s headless migration by turning an external dependency risk into a clear decision and stable delivery.
                 </p>
             </div>
+
+            <div class="case__layout">
+                <aside class="case__summary glass" data-reveal>
+                    <div class="case__eyebrow">Executive Summary</div>
+                    <h3 class="case__headline">From blocked planning → decision → team stability.</h3>
+
+                    <ul class="case__bullets">
+                        <li><strong>Problem:</strong> migration planning became unreliable due to external mini components dependency.</li>
+                        <li><strong>Action:</strong> aligned PM/BA/PO and presented options + trade-offs to decision-makers.</li>
+                        <li><strong>Outcome:</strong> ownership secured, scope expanded responsibly, team retained, execution unblocked.</li>
+                    </ul>
+
+                    <div class="case__meta">
+                        <span class="tag">Headless Migration</span>
+                        <span class="tag">AEM → React</span>
+                        <span class="tag">Design Tokens</span>
+                        <span class="tag">Stakeholder Alignment</span>
+                    </div>
+                </aside>
+
+                <div class="timeline glass" data-reveal>
+                    <div class="timeline__head">
+                        <div class="timeline__title">Decision Timeline</div>
+                        <div class="timeline__hint">Scroll — the active step highlights automatically.</div>
+                    </div>
+
+                    <ol class="timeline__list" id="timeline">
+                        <li class="t" data-step="1">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Situation</div>
+                                <div class="t__text">
+                                    Headless transition planning started to slow down — dependencies were not clearly owned and delivery confidence dropped.
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="2">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Problem</div>
+                                <div class="t__text">
+                                    “Mini components” lived in a shared repository owned by another provider, blocking reliable estimates and planning for our migrations.
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="3">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Risk Identified</div>
+                                <div class="t__text">
+                                    The number of missing mini components would compound delays. The longer we waited, the more migrations would be blocked.
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="4">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Analysis</div>
+                                <div class="t__text">
+                                    Mini components were strategically valuable because they integrate the design system via tokens — skipping them would reduce long-term scalability.
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="5">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Options & Trade-offs</div>
+                                <div class="t__text">
+                                    <strong>Option 1:</strong> our team develops missing mini components (removes dependency bottleneck).<br />
+                                    <strong>Option 2:</strong> migrate without mini components (faster short-term, weaker design system alignment).
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="6">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Alignment & Decision</div>
+                                <div class="t__text">
+                                    I aligned PM/BA/PO and drove the technical narrative in the decision meeting — securing buy-in to take ownership of missing mini components.
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="t" data-step="7">
+                            <div class="t__dot"></div>
+                            <div class="t__card">
+                                <div class="t__title">Outcome & Impact</div>
+                                <div class="t__text">
+                                    We expanded scope responsibly at the right moment. Result: migration was unblocked and the feature team was not downsized during resourcing pressure.
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- EVIDENCE -->
-    <section class="section">
-        <div class="container">
-            <div class="section-head">
-                <h2>Evidence</h2>
-                <p class="muted">Replace placeholders with real proof (small, sharp, credible).</p>
+    <!-- LEADERSHIP CAROUSEL -->
+    <section id="impact" class="impact">
+        <div class="wrap">
+            <div class="section-head" data-reveal>
+                <h2>Organizational impact</h2>
+                <p>Beyond delivery: leadership in action, culture building, and continuity under pressure.</p>
             </div>
 
-            <div class="grid-2">
-                <div class="card">
-                    <div class="card-title">Feedback (add quotes)</div>
-                    <blockquote class="quote">
-                        “Add a short excerpt here that shows ownership, quality, speed, or leadership.”
-                        <footer>— Name, Role</footer>
-                    </blockquote>
-                    <blockquote class="quote">
-                        “Second quote (optional). Keep it short and specific.”
-                        <footer>— Name, Role</footer>
-                    </blockquote>
-                </div>
+            <div class="pillbar" data-reveal>
+                <button class="pill is-active" data-filter="all">All</button>
+                <button class="pill" data-filter="trust">Stakeholder trust</button>
+                <button class="pill" data-filter="influence">Decision influence</button>
+                <button class="pill" data-filter="culture">Culture</button>
+                <button class="pill" data-filter="stability">Team stability</button>
+                <button class="pill" data-filter="mentorship">Mentorship</button>
+            </div>
+            <div class="swipe-hint" aria-hidden="true">Swipe →</div>
+            <div class="carousel" data-reveal>
+                <div class="car-hint" aria-hidden="true">→</div>
+                <button class="car-btn prev" aria-label="Scroll left">‹</button>
+                <div class="track" tabindex="0" aria-label="Leadership cards (horizontal scroll)">
+                    <article class="cardx glass" data-tags="culture trust">
+                        <div class="cardx__title">DXP-wide Events (x2)</div>
+                        <p>Organized DXP-wide collaboration moments to strengthen cross-team alignment and connection.</p>
+                        <div class="cardx__meta">Culture • Alignment</div>
+                    </article>
 
-                <div class="card">
-                    <div class="card-title">Metrics (add what you can)</div>
-                    <ul class="list">
-                        <li><strong>Delivery:</strong> e.g. reduced rework / smoother releases / clearer ownership</li>
-                        <li><strong>Quality:</strong> e.g. fewer regressions / improved test coverage / fewer hotfixes</li>
-                        <li><strong>Performance:</strong> e.g. page speed / bundle size / build time improvements</li>
-                        <li><strong>Enablement:</strong> e.g. reusable patterns, documentation, tooling</li>
-                    </ul>
-                    <p class="muted small">
-                        Even “directional” metrics are okay if you’re transparent (e.g. “~30%”).
-                    </p>
+                    <article class="cardx glass" data-tags="culture">
+                        <div class="cardx__title">DXP Gaming Event</div>
+                        <p>Created an informal space that improved morale and collaboration across the unit.</p>
+                        <div class="cardx__meta">Culture • Engagement</div>
+                    </article>
+
+                    <article class="cardx glass" data-tags="mentorship stability influence">
+                        <div class="cardx__title">Tech Lead Advocacy</div>
+                        <p>Advocated for Remco to step into a Tech Lead role and guided the transition to build confidence and autonomy.</p>
+                        <div class="cardx__meta">Mentorship • Continuity</div>
+                    </article>
+
+                    <article class="cardx glass" data-tags="stability trust influence">
+                        <div class="cardx__title">Team Stability Under Pressure</div>
+                        <p>Protected team capacity during downsizing risk by creating clarity and securing critical ownership decisions.</p>
+                        <div class="cardx__meta">Stability • Delivery</div>
+                    </article>
+
+                    <article class="cardx glass" data-tags="trust influence">
+                        <div class="cardx__title">Stakeholder Alignment</div>
+                        <p>Turned ambiguity into a structured proposal with options, trade-offs, and a recommended direction.</p>
+                        <div class="cardx__meta">Influence • Strategy</div>
+                    </article>
                 </div>
+                <button class="car-btn next" aria-label="Scroll right">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY SENIOR (ACCORDION) -->
+    <section id="senior" class="senior">
+        <div class="wrap">
+            <div class="section-head" data-reveal>
+                <h2>Why I’m a Senior</h2>
+                <p>Short headlines with expandable detail — focused on scope, autonomy, impact, and leadership.</p>
+            </div>
+
+            <div class="accordion" data-reveal>
+                <details open>
+                    <summary>Scope</summary>
+                    <div class="acc-body">
+                        I own cross-cutting architecture and delivery topics (AEM + React + integration), not just isolated tickets.
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Autonomy</summary>
+                    <div class="acc-body">
+                        I proactively identify risks, propose solutions, align stakeholders, and execute without constant direction.
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Impact</summary>
+                    <div class="acc-body">
+                        I focus on outcomes: de-risking delivery, enabling sustainable migration patterns, and protecting team effectiveness.
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Leadership</summary>
+                    <div class="acc-body">
+                        I mentor engineers, advocate for the right roles, and step up when continuity gaps appear — while raising delivery culture.
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Quality bar</summary>
+                    <div class="acc-body">
+                        I treat accessibility, performance, and observability as defaults — not optional finishing touches.
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Stakeholders</summary>
+                    <div class="acc-body">
+                        I translate technical trade-offs into business language, enabling decisions that keep delivery predictable and aligned.
+                    </div>
+                </details>
+            </div>
+
+            <div class="callout glass" data-reveal>
+                <strong>What changes if I’m Senior?</strong>
+                <span>I already deliver senior-level scope — the title formalizes the mandate to drive platform-wide initiatives and mentoring at scale.</span>
             </div>
         </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section section--alt">
-        <div class="container">
-            <div class="section-head">
-                <h2>Contact</h2>
-                <p class="muted">Replace links with your real contact points.</p>
-            </div>
-
-            <div class="card contact">
+    <section id="contact" class="contact">
+        <div class="wrap">
+            <div class="contact__grid glass" data-reveal>
                 <div>
-                    <div class="card-title">Let’s talk</div>
+                    <h2>Let’s connect</h2>
                     <p class="muted">
-                        If useful, I can share additional artifacts (diagrams, documentation, examples) during the assessment.
+                        Want the full deck, diagrams, or artifacts? I can share them during the assessment.
                     </p>
                 </div>
-                <div class="contact-actions">
+
+                <div class="contact__cta">
+                    <!-- Replace with your real email/LinkedIn -->
                     <a class="btn" href="mailto:dietgerpieters@example.com">Email</a>
                     <a class="btn btn--ghost" href="#" aria-disabled="true">LinkedIn</a>
-                    <a class="btn btn--ghost" href="#overview">Back to top</a>
+                    <a class="btn btn--ghost" href="#case">Back to case</a>
                 </div>
             </div>
-            <p class="footer muted small">© <span id="year"></span> Dietger Pieters • Senior Assessment Portfolio</p>
+
+            <footer class="footer muted">
+                © <span id="year"></span> Dietger Pieters • Built for the Senior Assessment
+            </footer>
         </div>
     </section>
 </main>
 
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<nav class="tabbar" aria-label="Quick navigation">
+    <a class="tab" href="#case"><span class="tab__icon">↯</span><span class="tab__label">Case</span></a>
+    <a class="tab" href="#impact"><span class="tab__icon">◎</span><span class="tab__label">Impact</span></a>
+    <a class="tab" href="#senior"><span class="tab__icon">★</span><span class="tab__label">Senior</span></a>
+    <a class="tab" href="#contact"><span class="tab__icon">✉</span><span class="tab__label">Contact</span></a>
+</nav>
+<script src="./script.js"></script>
 </body>
 </html>
